@@ -1,0 +1,13 @@
+# Ignore VSCode settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore Dart-related files
+.dart_tool/
+.packages
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
