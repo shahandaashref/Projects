@@ -9,7 +9,7 @@ Shape shape3 = createShape();
 
 print("\n🎉 All shapes calculated successfully!");
 }
-
+// To Avoid repeating the same code with different shapes
 Shape createShape() {
   print("📏Enter height: ");
   double height = double.tryParse(stdin.readLineSync() ?? '') ?? 0;;

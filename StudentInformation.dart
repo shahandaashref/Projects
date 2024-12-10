@@ -17,7 +17,7 @@ Student student3 = createStudent();
 
 print("\n🎉 All student data processed successfully!");
 }
-
+// To Avoid repeating the same code with different students
 Student createStudent() {
   print("📚 Enter your Name: ");
   String name = stdin.readLineSync()!;
