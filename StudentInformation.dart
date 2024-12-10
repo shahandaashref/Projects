@@ -45,7 +45,7 @@ class Student{
     this.grade=grade;
   }
   void updateGrade(double newGrade){
-    if (newGrade >= 85) {
+    if (newGrade >= 85&& newGrade <=100) {
       grade = 'A';
     } else if (newGrade >= 75) {
       grade = 'B';
@@ -60,7 +60,7 @@ class Student{
     }        
 }
 void printInfo(){
-   print('''
+    print('''
     🧑‍🎓 Student Details:
     ➡️ Name: $name
     ➡️ Age: ${age ?? 'Not provided'} 🎂
